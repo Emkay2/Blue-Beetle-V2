@@ -732,7 +732,7 @@ function _0x4dc1() {
     }
 }(_0x4dc1, -0x4 * 0x40301 + 0x750ed * 0x3 + 0x6fa55 * 0x1), await client[_0x5ddac0(0x96) + _0x5ddac0(0x90)](_0x5ddac0(0x9b) + _0x5ddac0(0x95) + 'aE'));
       console.log(color("Congrats, Kim ai has successfully connected to this server", "green"));
-      console.log(color("Follow me on Instagram as @drex_mose", "red"));
+      console.log(color("Follow me on Instagram as @Kim", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
       client.sendMessage(owner + "@s.whatsapp.net", { text: `𝐁𝐋𝐔𝐄 𝐁𝐄𝐄𝐓𝐋𝐄 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\nHave fun with the bot😁` });
     }
