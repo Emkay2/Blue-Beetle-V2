@@ -88,7 +88,7 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 ## License
 
-[MIT License](https://github.com/Samue-l1/Black-Mamba-Ai/blob/main/LICENSE)
+[MIT License](https://github.com/Madmkisii/Black-Blue-Beetle-V2/blob/main/LICENSE)
 
 Copyright (c) 2024   𝐁𝐞𝐞𝐭𝐥𝐞 
 
