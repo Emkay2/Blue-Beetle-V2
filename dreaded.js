@@ -522,7 +522,7 @@ let cap = `╭════〘 𝐁𝐋𝐔𝐄 𝐁𝐄𝐄𝐓𝐋𝐄  〙═�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./Classic.mp4'),
+                        video: fs.readFileSync('./Beetle.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -2002,7 +2002,7 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `*_</ 𝐁𝐄𝐄𝐓𝐋𝐄  𝐁𝐎𝐓𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
+             let txt = `*_</ 𝐁𝐄𝐄𝐓𝐋𝐄  𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://telegra.ph/file/4ceb5e3d112d1b3be2493.jpg" 
