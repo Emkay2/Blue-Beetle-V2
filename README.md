@@ -50,7 +50,7 @@ Linking/Pairing:[https://replit.com/@Madmkisii/Pairing-blue-beetle-1]
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="[https://replit.com/@Madmkisii/Pairing-blue-beetle-1](_https://replit.com/@Madmkisii/Pairing-blue-beetle-1)"><img src="https://repl.it/badge/github/quiec/whatsasena" /> 
+<h2 align="left">  <a href="https://replit.com/@Madmkisii/Pairing-blue-beetle-1"><img src="https://repl.it/badge/github/quiec/whatsasena" /> 
 </a>
 </h2>
 
