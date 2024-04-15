@@ -44,9 +44,7 @@ This is a highly customisable simple whatsapp bot with group management features
 
 You will need an openai API key for AI features to work.
 
-# SET-UP
 
-Linking/Pairing:[https://replit.com/@Madmkisii/Pairing-blue-beetle-1]
 
 
 ## ` Pair On reptil`
