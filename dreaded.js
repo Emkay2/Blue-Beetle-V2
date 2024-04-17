@@ -1421,33 +1421,42 @@ break;
  break;
 		      
   case "take": {
-try {
 
-  if (!m.quoted) return reply('Quote a sticker!')
-  let fortunx = await client.getName(sender);
-  
-  if (!/webp/.test(mime)) throw `Tag sticker with caption  ${prefix + command}`;
-  if (m.quoted.isAnimated === true) {
-  client.downloadAndSaveMediaMessage(quoted, "gifee");
-  client.sendMessage(m.chat, {sticker:fs.readFileSync("gifee.webp")},{quoted:m});
-  } else if (/image/.test(mime)) {
-  let mediax = await quoted.download();
-  let encmediax = await client.sendImageAsSticker(m.chat, mediax, m, { packname: fortunx, author: fortunx });
-  await fs.unlinkSync(encmediax);
+import { Sticker, createSticker, StickerTypes } from 'wa-sticker-formatter';
 
+const Take = async(client, m, pushname, msgDreaded) => {
 
-
-} else if (/video/.test(mime)) {
-  if ((quoted.msg || quoted).seconds > 11) return m.reply('Not long than 10 seconds!');
-  let mediaxx = await quoted.download();
-  let encmediaxx = await client.sendVideoAsSticker(m.chat, mediaxx, m, { packname: fortunx, author: fortunx });
-  await fs.unlinkSync(encmediaxx)
+if(!msgDreaded) { m.reply('Quote a sticker, image or short video.') ; return } ;
+let media;
+if (msgDreaded.imageMessage) {
+     media = msgDreaded.imageMessage
+  } else if(msgDreaded.videoMessage) {
+media = msgDreaded.videoMessage
+  } 
+  else if (msgDreaded.stickerMessage) {
+    media = msgDreaded.stickerMessage ;
   } else {
-  reply(`Send a sticker with caption ${prefix + command}`);
-  }
+    m.reply('Quote some media...'); return
+  } ;
 
-} catch (errr) { 
- await reply("𝐒𝐨𝐫𝐫𝐲\n𝐂𝐚𝐧𝐭 𝐟𝐢𝐧𝐝 ☄")}
+var result = await client.downloadAndSaveMediaMessage(media);
+
+let stickerResult = new Sticker(result, {
+            pack: pushname,
+            author:-
+            type: StickerTypes.FULL,
+            categories: ["🤩", "🎉"],
+            id: "12345",
+            quality: 70,
+            background: "transparent",
+          });
+const Buffer = await stickerResult.toBuffer();
+          client.sendMessage(m.chat, { sticker: Buffer }, { quoted: m });
+
+}
+
+export default Take;
+  
 
   }
 break;
