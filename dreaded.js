@@ -1838,10 +1838,10 @@ const audiovn = "./alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
-          body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          title: "𝐇𝐢 𝐡𝐮𝐦𝐚𝐧,𝐁𝐥𝐮𝐞 𝐁𝐞𝐞𝐭𝐥𝐞 𝐢𝐬 𝐀𝐥𝐢𝐯𝐞 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐃𝐚𝐦𝐨𝐧",
+          body: "https://chat.whatsapp.com/HSChig1YPPQIDEtpvzMBuo",
           thumbnailUrl: "https://telegra.ph/file/cd931271ca262b184db48.jpg",
-          sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          sourceUrl: "https://chat.whatsapp.com/HSChig1YPPQIDEtpvzMBuo",
           mediaType: 1,
           renderLargerThumbnail: true
           }}
