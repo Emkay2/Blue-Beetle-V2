@@ -1443,7 +1443,7 @@ var result = await client.downloadAndSaveMediaMessage(media);
 
 let stickerResult = new Sticker(result, {
             pack: pushname,
-            author:-
+            author:"𝚳𝚯𝐆𝚰𝚪𝚵 𝐊𝚰𝚳"
             type: StickerTypes.FULL,
             categories: ["🤩", "🎉"],
             id: "12345",
