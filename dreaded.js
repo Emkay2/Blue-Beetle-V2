@@ -81,7 +81,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐁𝐋𝐔𝐄-𝐁𝐄𝐄𝐓𝐋𝐄 ';
+    const author = process.env.STICKER_AUTHOR ||'𝚳𝚯𝐆𝚰𝚪𝚵 𝐊𝚰𝚳 ';
     const packname = process.env.STICKER_PACKNAME || '𝘿𝙖𝙢𝙤𝙣';
 const dev = process.env.DEV || '254790593618'
 
