@@ -102,7 +102,7 @@ const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";
 const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 𝐨𝐧𝐥𝐲, 𝐃𝐮𝐦𝐦𝐲.';
     const group = process.env.GROUP_ONLY_MSG || '𝐆𝐫𝐨𝐮𝐩 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐍𝐢𝐠𝐠𝐚.';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐈𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐌𝐅'
-    const NotOwner = process.env.NOT_OWNER_MSG || '𝐁𝐞𝐞𝐭𝐥𝐞 𝐨𝐧𝐥𝐲 ☬';
+    const NotOwner = process.env.NOT_OWNER_MSG || '𝐁𝐞𝐞𝐭𝐥𝐞 𝐨𝐧𝐥𝐲';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
@@ -1412,7 +1412,7 @@ break;
 
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url:'https://telegra.ph/file/4ceb5e3d112d1b3be2493.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:𝐁𝐋𝐔𝐄-𝐁𝐄𝐄𝐓𝐋𝐄*\n\n*𝐒𝐏𝐄𝐄𝐃: ${dreadedspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐒𝐚𝐦𝐮𝐞𝐥*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼`}); 
+              client.sendMessage(m.chat, { image: { url:'https://telegra.ph/file/4ceb5e3d112d1b3be2493.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:𝐁𝐋𝐔𝐄-𝐁𝐄𝐄𝐓𝐋𝐄*\n\n*𝐒𝐏𝐄𝐄𝐃: ${dreadedspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐊𝚰𝚳𝚳𝐘*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑:𝐁𝐞𝐞𝐭𝐥𝐞`}); 
  break;
 	      
   case "credits": 
@@ -1796,7 +1796,7 @@ break;
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
-                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐁𝐥𝐮𝐞-𝐁𝐞𝐞𝐭𝐥𝐞`,
+                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐁𝐥𝐮𝐞 𝐁𝐞𝐞𝐭𝐥𝐞`,
                     }, {
                         quoted: m
                     }
@@ -2005,7 +2005,7 @@ case "movie":
              let txt = `*_</ 𝐁𝐄𝐄𝐓𝐋𝐄  𝐁𝐎𝐓 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
-                     url: "https://telegra.ph/file/4ceb5e3d112d1b3be2493.jpg" 
+                     url: "https://telegra.ph/file/cd931271ca262b184db48.jpg" 
                  }, 
                  caption: `${txt}` 
              }) 
