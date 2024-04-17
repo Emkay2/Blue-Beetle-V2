@@ -1,10 +1,10 @@
-# 𝐁𝐋𝐔𝐄-𝐁𝐄𝐄𝐓𝐋𝐄 
+# 𝐁𝐋𝐔𝐄 𝐁𝐄𝐄𝐓𝐋𝐄 
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝐁𝐋𝐔𝐄-𝐁𝐄𝐄𝐓𝐋𝐄 ;WHATSAPP+BOT;CREATED+BY+DAMON" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝐁𝐋𝐔𝐄 𝐁𝐄𝐄𝐓𝐋𝐄 ;WHATSAPP+BOT;CREATED+BY+DAMON" alt="Typing SVG" /></a>
   </p>
   
 <p align="center">
-<img src="https://telegra.ph/file/dd2557ac4a85507c077d7.jpg" width="650" height="500"/>
+<img src="https://telegra.ph/file/cd931271ca262b184db48.jpg" width="650" height="500"/>
 </p>
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=DAMON+WHATSAPP+BOT" alt="">
