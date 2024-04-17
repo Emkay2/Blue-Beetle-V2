@@ -1680,8 +1680,7 @@ case 'yta': {
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: "audio/mpeg",
                         fileName: titleYt + ".mp3",
-                    }, {
-                        quoted: m
+                        caption:"𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 𝐁𝐄𝐄𝐓𝐋𝐄"
                     }
                 );
             } else {
